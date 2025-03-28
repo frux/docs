@@ -176,7 +176,7 @@ if __name__ == '__main__':
              Log_File      /var/log/fluentbit.log
              Log_Level     error
              Daemon        off
-             Parsers_File  /fluent-bit/etc/parsers.conf
+             Parsers_File  /etc/fluentbit/parsers.conf
 
          [FILTER]
              Name parser
